@@ -1,0 +1,61 @@
+#members {
+  background-image: url("../../images/fondo6.JPG");
+  background-size: cover;
+  background-position: center;
+}
+.members__container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-items: center;
+  align-items: center;
+  margin: 0 auto;
+  max-width: 80%;
+  gap: 50px;
+  justify-content: center;
+  margin-bottom: 50px;
+  margin-top: 70px;
+}
+
+.members__title {
+  font-size: 50px;
+  letter-spacing: 10px;
+  color: rgb(229, 124, 250);
+}
+
+.board-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 16px;
+  padding: 16px;
+}
+
+.board-card {
+  background-color: rgb(0, 0, 0);
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  padding: 16px;
+  text-align: center;
+  width: 200px;
+  height: 100px;
+  max-width: 200px;
+  max-height: 100px;
+}
+
+.board-card:hover {
+  cursor: pointer;
+}
+
+.board-card h2 {
+  font-size: 1.2em;
+  margin: 0;
+}
+
+.board-card p {
+  font-size: 1em;
+  margin: 8px 0 0;
+}
+.board-cardName {
+  color: rgb(182, 255, 140);
+}

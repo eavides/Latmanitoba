@@ -1,0 +1,74 @@
+#about {
+  display: grid;
+  max-width: 80%;
+  grid-template-areas:
+    "title title title"
+    "image image descri"
+    "titmiss titmiss titmiss"
+    "desmiss desmiss desmiss"
+    "titvis titvis titvis"
+    "desvis desvis desvis";
+
+  justify-items: center;
+  align-items: center;
+  margin: 0 auto;
+}
+#about .row-5,
+#about .row-6 {
+  border-bottom: 1px solid red; /* Pintar los bordes inferiores de las últimas dos filas */
+}
+
+.about__description {
+  grid-area: descri;
+  max-width: 75%;
+  line-height: 2;
+  text-align: justify;
+}
+
+.about__title {
+  grid-area: title;
+  font-size: 50px;
+  letter-spacing: 10px;
+  color: rgb(229, 124, 250);
+  justify-self: center;
+}
+.about__img {
+  grid-area: image;
+  width: 100%; /* La imagen ocupará el 100% del ancho del contenedor */
+  max-width: 400px; /* El ancho máximo será de 250px */
+  height: auto; /* La altura será automática para mantener la proporción */
+  aspect-ratio: 1 / 1; /* Mantiene la relación de aspecto de 1:1 */
+  object-fit: cover; /* Ajusta la imagen dentro del contenedor sin distorsión */
+  border-radius: 50%;
+}
+
+.about__titmiss {
+  grid-area: titmiss;
+  font-size: 50px;
+  letter-spacing: 30px;
+  color: rgb(182, 255, 140);
+
+  margin: 0;
+}
+.about__desmis {
+  grid-area: desmiss;
+  max-width: 90%;
+  line-height: 1.5;
+  text-align: justify;
+}
+
+.about__titvis {
+  grid-area: titvis;
+  font-size: 50px;
+  letter-spacing: 30px;
+  color: rgb(182, 255, 140);
+
+  margin: 0;
+}
+
+.about__desvis {
+  grid-area: desvis;
+  max-width: 90%;
+  line-height: 1.5;
+  text-align: justify;
+}

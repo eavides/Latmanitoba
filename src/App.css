@@ -1,38 +1,19 @@
-.App {
-  text-align: center;
-}
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+@import url("./fonts/fonts.css");
+body {
+  width: 100%;
+  height: 100%;
+  font-family: "Montserrat", sans-serif;
+  background-color: black;
+  background-image: url("./images/fondo9.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
   color: white;
+  font-weight: lighter;
 }
 
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
-}
+@import url("./components/Header/Header.css");
+@import url("./components/Cover/Cover.css");
+@import url("./components/About/About.css");
+@import url("./components/Members/Members.css");
+@import url("./components/InfoPopup/InfoPopup.css");

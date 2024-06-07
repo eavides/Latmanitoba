@@ -1,0 +1,76 @@
+.infopopup {
+  color: white;
+
+  visibility: hidden;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100vh;
+  background: #000000c5;
+  place-content: center;
+  transition: all 0.2s linear;
+  opacity: 1;
+  display: grid;
+  justify-content: center;
+}
+
+.infopopup_opened {
+  visibility: visible;
+}
+
+.infopopup__content {
+  background-color: black;
+  display: grid;
+  justify-content: center;
+  width: 700px;
+  height: 500px;
+  border: 1px solid white;
+  grid-template-areas:
+    "foto nombre  nombre"
+    "foto position  position"
+    "des des des";
+  grid-template-rows: auto auto 1fr;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 10px;
+  padding: 20px;
+}
+.infopopup__content-buttonimg {
+  position: absolute;
+  right: 290px;
+  top: 10px;
+  cursor: pointer;
+}
+
+.infopopup__member {
+  grid-area: foto;
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  object-fit: cover;
+  justify-self: center;
+  align-self: center;
+}
+
+.infopopup__name {
+  grid-area: nombre;
+  font-size: 50px;
+  justify-self: center;
+  align-self: flex-end;
+  margin-bottom: 0px;
+  color: rgb(229, 124, 250);
+}
+.infopopup__position {
+  grid-area: position;
+  justify-self: center;
+  font-size: 30px;
+  align-self: flex-start;
+  margin-top: 0px;
+}
+.infopopup__description {
+  grid-area: des;
+  justify-content: center;
+  text-align: justify;
+  line-height: 1.5;
+  font-size: 16px;
+}

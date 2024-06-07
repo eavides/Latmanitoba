@@ -1,0 +1,60 @@
+{
+  "board": [
+    {
+      "id": 1,
+      "name": "Fernanda Vallejo",
+      "position": "President",
+      "link": "../../images/presi.jpg",
+      "description": "Es la presidenta de la Asociacion Latinas Manitoba desde que nacio como una idea en pandemia y que poco a poco se fue agregando mucha gente al proyecto para poder ser una Asociacion reconocida dentro de la población latimna en Winnipeg Manitoba"
+    },
+    {
+      "id": 2,
+      "name": "Vicepresidente",
+      "position": "Vice-President",
+      "link": "../../images/vice.jpg",
+      "description": "Es la presidenta de la Asociacion Latinas Manitoba desde que nacio como una idea en pandemia y que poco a poco se fue agregando mucha gente al proyecto para poder ser una Asociacion reconocida dentro de la población latimna en Winnipeg Manitoba"
+    },
+    {
+      "id": 3,
+      "name": "Financiero",
+      "position": "Financiero",
+      "link": "../../images/person.jpg",
+      "description": "Es la presidenta de la Asociacion Latinas Manitoba desde que nacio como una idea en pandemia y que poco a poco se fue agregando mucha gente al proyecto para poder ser una Asociacion reconocida dentro de la población latimna en Winnipeg Manitoba"
+    },
+    {
+      "id": 4,
+      "name": "Secretario",
+      "position": "Secretario",
+      "link": "../../images/presi.jpg",
+      "description": "Es la presidenta de la Asociacion Latinas Manitoba desde que nacio como una idea en pandemia y que poco a poco se fue agregando mucha gente al proyecto para poder ser una Asociacion reconocida dentro de la población latimna en Winnipeg Manitoba"
+    },
+    {
+      "id": 5,
+      "name": "Eventos",
+      "position": "Eventos",
+      "link": "../../images/presi.jpg",
+      "description": "Es la presidenta de la Asociacion Latinas Manitoba desde que nacio como una idea en pandemia y que poco a poco se fue agregando mucha gente al proyecto para poder ser una Asociacion reconocida dentro de la población latimna en Winnipeg Manitoba"
+    },
+    {
+      "id": 6,
+      "name": "Mercadeo",
+      "position": "Mercadeo",
+      "link": "../../images/presi.jpg",
+      "description": "Es la presidenta de la Asociacion Latinas Manitoba desde que nacio como una idea en pandemia y que poco a poco se fue agregando mucha gente al proyecto para poder ser una Asociacion reconocida dentro de la población latimna en Winnipeg Manitoba"
+    },
+    {
+      "id": 7,
+      "name": "Relaciones cpn proveedores",
+      "position": "Relaciones cpn proveedores",
+      "link": "../../images/presi.jpg",
+      "description": "Es la presidenta de la Asociacion Latinas Manitoba desde que nacio como una idea en pandemia y que poco a poco se fue agregando mucha gente al proyecto para poder ser una Asociacion reconocida dentro de la población latimna en Winnipeg Manitoba"
+    },
+    {
+      "id": 8,
+      "name": "Apoyo",
+      "position": "Apoyo",
+      "link": "../../images/presi.jpg",
+      "description": "Es la presidenta de la Asociacion Latinas Manitoba desde que nacio como una idea en pandemia y que poco a poco se fue agregando mucha gente al proyecto para poder ser una Asociacion reconocida dentro de la población latimna en Winnipeg Manitoba"
+    }
+  ]
+}
